@@ -33,5 +33,5 @@ RUN java -version
 
 WORKDIR /MMT/
 RUN ./setup.py
-# RUN ./mmt create en it examples/data/train -d --no-split
+RUN ./mmt create en it examples/data/train -d --no-split
 
